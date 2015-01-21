@@ -9,6 +9,159 @@ package com.jyoti.loginmodule;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int behindOffset=0x7f010003;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int behindScrollScale=0x7f010005;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int behindWidth=0x7f010004;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fadeDegree=0x7f01000b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fadeEnabled=0x7f01000a;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int mode=0x7f010000;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectorDrawable=0x7f01000d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selectorEnabled=0x7f01000c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int shadowDrawable=0x7f010008;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadowWidth=0x7f010009;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int touchModeAbove=0x7f010006;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int touchModeBehind=0x7f010007;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int viewAbove=0x7f010001;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int viewBehind=0x7f010002;
+    }
+    public static final class color {
+        public static final int airing_indicator=0x7f040012;
+        public static final int background_kids=0x7f04001f;
+        public static final int background_lifestyle=0x7f040020;
+        public static final int background_movies=0x7f04001e;
+        public static final int background_music=0x7f040021;
+        public static final int background_news=0x7f040022;
+        public static final int background_sports=0x7f04001d;
+        public static final int background_transparent_black=0x7f040023;
+        public static final int black=0x7f040001;
+        public static final int black_shade1=0x7f040006;
+        public static final int black_shade2=0x7f040007;
+        public static final int diskspace_busy=0x7f040024;
+        public static final int diskspace_error=0x7f040025;
+        public static final int grey_shade1=0x7f040008;
+        public static final int grey_shade10=0x7f040011;
+        public static final int grey_shade2=0x7f040009;
+        public static final int grey_shade3=0x7f04000a;
+        public static final int grey_shade4=0x7f04000b;
+        public static final int grey_shade5=0x7f04000c;
+        public static final int grey_shade6=0x7f04000d;
+        public static final int grey_shade7=0x7f04000e;
+        public static final int grey_shade8=0x7f04000f;
+        public static final int grey_shade9=0x7f040010;
+        public static final int inactive=0x7f040013;
+        public static final int kids=0x7f040019;
+        public static final int lifestyle=0x7f04001a;
+        public static final int listRowEven=0x7f040005;
+        public static final int listRowOdd=0x7f040004;
+        public static final int movies=0x7f040018;
+        public static final int music=0x7f04001b;
+        public static final int news=0x7f04001c;
+        public static final int red=0x7f040002;
+        public static final int slide_show_divider=0x7f040015;
+        public static final int slide_show_smalltext=0x7f040014;
+        public static final int sports=0x7f040017;
+        public static final int tabbar_list_container=0x7f040016;
+        public static final int transparent=0x7f040000;
+        public static final int white=0x7f040003;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -18,31 +171,157 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
+        public static final int title_left_margin_isTop=0x7f050002;
+        public static final int title_left_margin_not_isTop=0x7f050003;
+        public static final int title_top_margin=0x7f050004;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int back_off=0x7f020000;
+        public static final int back_on=0x7f020001;
+        public static final int ic_action_content_add_box=0x7f020002;
+        public static final int ic_action_content_remove_circle=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int more_off=0x7f020005;
+        public static final int more_on=0x7f020006;
+        public static final int search_off=0x7f020007;
+        public static final int search_on=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f080006;
-        public static final int btn_login=0x7f080004;
-        public static final int et_pw=0x7f080003;
-        public static final int et_un=0x7f080001;
-        public static final int tv_error=0x7f080005;
-        public static final int tv_pw=0x7f080002;
-        public static final int tv_un=0x7f080000;
+        public static final int Register=0x7f06000b;
+        public static final int action_settings=0x7f06001e;
+        public static final int addTOCartButton=0x7f060017;
+        public static final int catLogList=0x7f060006;
+        public static final int editText1=0x7f060008;
+        public static final int editText2=0x7f060009;
+        public static final int fullscreen=0x7f060003;
+        public static final int icon=0x7f06001b;
+        public static final int iconTitleContainer=0x7f06001a;
+        public static final int itemImage=0x7f060013;
+        public static final int itemName=0x7f060014;
+        public static final int itemQuantity=0x7f060015;
+        public static final int left=0x7f060001;
+        public static final int login=0x7f06000a;
+        public static final int margin=0x7f060004;
+        public static final int none=0x7f060005;
+        public static final int progressBar1=0x7f060007;
+        public static final int quantityLabel=0x7f060016;
+        public static final int register_address=0x7f060011;
+        public static final int register_create_account=0x7f060012;
+        public static final int register_email=0x7f06000d;
+        public static final int register_mobile=0x7f06000e;
+        public static final int register_password=0x7f06000f;
+        public static final int register_retype_password=0x7f060010;
+        public static final int register_username=0x7f06000c;
+        public static final int right=0x7f060002;
+        public static final int rightTextViewForDVR=0x7f06001d;
+        public static final int search_icon=0x7f060019;
+        public static final int selected_view=0x7f060000;
+        public static final int slidingmenumain=0x7f060018;
+        public static final int topbar_title=0x7f06001c;
+    }
+    public static final class integer {
+        public static final int add_onetime_recording=0x7f07001b;
+        public static final int advertise=0x7f070014;
+        public static final int cast_crew=0x7f070004;
+        public static final int change_emailid=0x7f070021;
+        public static final int change_pwd=0x7f070022;
+        public static final int channellineup=0x7f070009;
+        public static final int create=0x7f070008;
+        public static final int delete_recording_request=0x7f07001e;
+        public static final int for_you_details=0x7f07000d;
+        public static final int for_you_list=0x7f07000c;
+        public static final int get_channel_logo=0x7f070013;
+        public static final int get_genre_list=0x7f070016;
+        public static final int get_provider_list=0x7f070026;
+        public static final int get_recording_request=0x7f07001a;
+        public static final int getutcinfo=0x7f07000b;
+        public static final int home_premierings=0x7f070001;
+        public static final int image_download=0x7f070000;
+        public static final int login=0x7f070005;
+        public static final int program_details=0x7f070003;
+        public static final int register_device=0x7f070025;
+        public static final int req_celeb_credits=0x7f07001c;
+        public static final int req_whatson=0x7f070011;
+        public static final int request_autosuggest=0x7f070017;
+        public static final int request_celeb_schedule=0x7f07001d;
+        public static final int request_celebrity_details=0x7f070019;
+        public static final int request_channel_tune=0x7f070029;
+        public static final int request_devices=0x7f07000e;
+        public static final int request_diskspace=0x7f07001f;
+        public static final int request_fav=0x7f07000a;
+        public static final int request_future_program_airings_paginated=0x7f070015;
+        public static final int request_html=0x7f070020;
+        public static final int request_mso_detail=0x7f070027;
+        public static final int request_search=0x7f070018;
+        public static final int request_unique_id=0x7f07002a;
+        public static final int request_zip_file=0x7f070028;
+        public static final int resetpassword=0x7f070010;
+        public static final int schedule=0x7f070007;
+        public static final int service_details=0x7f070006;
+        public static final int similar_programs=0x7f070002;
+        public static final int unregister_device=0x7f070024;
+        public static final int update_device_name=0x7f070023;
+        public static final int update_fav_list=0x7f070012;
+        /** integer name="request_fav_airings">14</integer
+         */
+        public static final int update_service_provider=0x7f07000f;
     }
     public static final class layout {
-        public static final int activity_login_avtivity=0x7f030000;
+        public static final int activity_cat_log=0x7f030000;
+        public static final int activity_login_avtivity=0x7f030001;
+        public static final int activity_next=0x7f030002;
+        public static final int activity_user_register=0x7f030003;
+        public static final int item_row=0x7f030004;
+        public static final int slidingmenumain=0x7f030005;
+        public static final int top_action_bar_layout=0x7f030006;
     }
     public static final class menu {
-        public static final int login_avtivity=0x7f070000;
+        public static final int cat_log=0x7f0a0000;
+        public static final int login_avtivity=0x7f0a0001;
+        public static final int next=0x7f0a0002;
+        public static final int user_register=0x7f0a0003;
     }
     public static final class string {
-        public static final int action_settings=0x7f050002;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050001;
+        public static final int App=0x7f08000c;
+        public static final int Choose=0x7f080012;
+        public static final int LoginPost=0x7f08000a;
+        public static final int LoginRole=0x7f08000e;
+        public static final int LoginStatus=0x7f08000d;
+        public static final int Register=0x7f080008;
+        public static final int Role=0x7f080010;
+        public static final int Status=0x7f08000f;
+        public static final int action_settings=0x7f080002;
+        public static final int address=0x7f080009;
+        public static final int address_empty=0x7f080021;
+        public static final int app_name=0x7f080000;
+        public static final int confirm_pwd_empty=0x7f08001b;
+        public static final int create_account=0x7f08000b;
+        public static final int email=0x7f080007;
+        public static final int emailid_empty=0x7f08001a;
+        public static final int hello_world=0x7f080001;
+        public static final int internet_disconnected=0x7f080014;
+        public static final int internet_not_available=0x7f080015;
+        public static final int invalid_emailid=0x7f08001f;
+        public static final int invalid_mobile=0x7f080020;
+        public static final int invalid_password=0x7f08001e;
+        public static final int invalid_username=0x7f080017;
+        public static final int invalid_values=0x7f080022;
+        public static final int method=0x7f080011;
+        public static final int mobile=0x7f080006;
+        public static final int new_pwd_empty=0x7f08001d;
+        public static final int old_pwd_empty=0x7f08001c;
+        public static final int password=0x7f080004;
+        public static final int password_doesnt_match=0x7f080023;
+        public static final int password_empty=0x7f080019;
+        public static final int retype_password=0x7f080005;
+        public static final int server_error=0x7f080024;
+        public static final int title_activity_cat_log=0x7f080025;
+        public static final int title_activity_next=0x7f080013;
+        public static final int title_activity_user_register=0x7f080016;
+        public static final int username=0x7f080003;
+        public static final int username_empty=0x7f080018;
     }
     public static final class style {
         /** 
@@ -66,10 +345,251 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f090000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f090001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a SlidingMenu.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SlidingMenu_behindOffset com.jyoti.loginmodule:behindOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_behindScrollScale com.jyoti.loginmodule:behindScrollScale}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_behindWidth com.jyoti.loginmodule:behindWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_fadeDegree com.jyoti.loginmodule:fadeDegree}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_fadeEnabled com.jyoti.loginmodule:fadeEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_mode com.jyoti.loginmodule:mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_selectorDrawable com.jyoti.loginmodule:selectorDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_selectorEnabled com.jyoti.loginmodule:selectorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_shadowDrawable com.jyoti.loginmodule:shadowDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_shadowWidth com.jyoti.loginmodule:shadowWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_touchModeAbove com.jyoti.loginmodule:touchModeAbove}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_touchModeBehind com.jyoti.loginmodule:touchModeBehind}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_viewAbove com.jyoti.loginmodule:viewAbove}</code></td><td></td></tr>
+           <tr><td><code>{@link #SlidingMenu_viewBehind com.jyoti.loginmodule:viewBehind}</code></td><td></td></tr>
+           </table>
+           @see #SlidingMenu_behindOffset
+           @see #SlidingMenu_behindScrollScale
+           @see #SlidingMenu_behindWidth
+           @see #SlidingMenu_fadeDegree
+           @see #SlidingMenu_fadeEnabled
+           @see #SlidingMenu_mode
+           @see #SlidingMenu_selectorDrawable
+           @see #SlidingMenu_selectorEnabled
+           @see #SlidingMenu_shadowDrawable
+           @see #SlidingMenu_shadowWidth
+           @see #SlidingMenu_touchModeAbove
+           @see #SlidingMenu_touchModeBehind
+           @see #SlidingMenu_viewAbove
+           @see #SlidingMenu_viewBehind
+         */
+        public static final int[] SlidingMenu = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#behindOffset}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jyoti.loginmodule:behindOffset
+        */
+        public static final int SlidingMenu_behindOffset = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#behindScrollScale}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jyoti.loginmodule:behindScrollScale
+        */
+        public static final int SlidingMenu_behindScrollScale = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#behindWidth}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jyoti.loginmodule:behindWidth
+        */
+        public static final int SlidingMenu_behindWidth = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#fadeDegree}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jyoti.loginmodule:fadeDegree
+        */
+        public static final int SlidingMenu_fadeDegree = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#fadeEnabled}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jyoti.loginmodule:fadeEnabled
+        */
+        public static final int SlidingMenu_fadeEnabled = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#mode}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.jyoti.loginmodule:mode
+        */
+        public static final int SlidingMenu_mode = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#selectorDrawable}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jyoti.loginmodule:selectorDrawable
+        */
+        public static final int SlidingMenu_selectorDrawable = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#selectorEnabled}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jyoti.loginmodule:selectorEnabled
+        */
+        public static final int SlidingMenu_selectorEnabled = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#shadowDrawable}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jyoti.loginmodule:shadowDrawable
+        */
+        public static final int SlidingMenu_shadowDrawable = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#shadowWidth}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jyoti.loginmodule:shadowWidth
+        */
+        public static final int SlidingMenu_shadowWidth = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#touchModeAbove}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.jyoti.loginmodule:touchModeAbove
+        */
+        public static final int SlidingMenu_touchModeAbove = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#touchModeBehind}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>margin</code></td><td>0</td><td></td></tr>
+<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.jyoti.loginmodule:touchModeBehind
+        */
+        public static final int SlidingMenu_touchModeBehind = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#viewAbove}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jyoti.loginmodule:viewAbove
+        */
+        public static final int SlidingMenu_viewAbove = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jyoti.loginmodule.R.attr#viewBehind}
+          attribute's value can be found in the {@link #SlidingMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jyoti.loginmodule:viewBehind
+        */
+        public static final int SlidingMenu_viewBehind = 2;
+    };
 }

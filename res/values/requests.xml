@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="image_download">0</integer>
+    <integer name="home_premierings">1</integer>
+    <integer name="similar_programs">2</integer>
+    <integer name="program_details">3</integer>
+    <integer name="cast_crew">4</integer>
+    <integer name="login">5</integer>
+    <integer name="service_details">6</integer>
+    <integer name="schedule">7</integer>
+    <integer name="create">8</integer>
+    <integer name="channellineup">9</integer>
+    <integer name="request_fav">10</integer>
+    <integer name="getutcinfo">11</integer>
+    <integer name="for_you_list">12</integer>
+    <integer name="for_you_details">13</integer>
+    <integer name="request_devices">14</integer>
+    <!--integer name="request_fav_airings">14</integer-->
+    <integer name="update_service_provider">15</integer>
+    <integer name="resetpassword">16</integer>
+    <integer name="req_whatson">17</integer>
+    <integer name="update_fav_list">18</integer>
+    <integer name="get_channel_logo">19</integer>
+    <integer name="advertise">20</integer>
+    <integer name="request_future_program_airings_paginated">21</integer>
+    <integer name="get_genre_list">22</integer>
+    <integer name="request_autosuggest">23</integer>
+    <integer name="request_search">24</integer>
+    <integer name="request_celebrity_details">25</integer>
+    <integer name="get_recording_request">26</integer>
+    <integer name="add_onetime_recording">27</integer>
+    <integer name="req_celeb_credits">28</integer>
+    <integer name="request_celeb_schedule">29</integer>
+    <integer name="delete_recording_request">30</integer>
+    <integer name="request_diskspace">31</integer>
+    <integer name="request_html">32</integer>
+    <integer name="change_emailid">33</integer>
+    <integer name="change_pwd">34</integer>
+    <integer name="update_device_name">35</integer>
+    <integer name="unregister_device">36</integer>
+    <integer name="register_device">37</integer>
+    <integer name="get_provider_list">38</integer>
+    <integer name="request_mso_detail">39</integer>
+    <integer name="request_zip_file">40</integer>
+    <integer name="request_channel_tune">41</integer>
+    <integer name="request_unique_id">42</integer>
+    
+    
+</resources>

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry exported="true" kind="lib" path="/Users/jsakhare/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/jsakhare/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/jsakhare/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar"/>
+	<classpathentry exported="true" kind="var" path="EXTERNAL_LIB_ROOT/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK/TotalGuide"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="/Users/jsakhare/.m2/repository/commons-io/commons-io/1.1/commons-io-1.1.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
