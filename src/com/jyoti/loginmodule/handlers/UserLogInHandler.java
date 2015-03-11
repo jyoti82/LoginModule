@@ -79,13 +79,12 @@ public class UserLogInHandler implements ResponseHandler{
 				postError(result);
 				return;
 			}
-			JsonNode accountInfoNode = dataNode.findPath("Data");
+			JsonNode accountInfoNode = dataNode.findPath("Authentication");
 			 email = accountInfoNode.get("Email").textValue();
-			 userId = accountInfoNode.get("UserId").textValue();
+			 userId = String.valueOf(accountInfoNode.get("UserId").intValue());
 			 securityToken = accountInfoNode.get("SecurityToken").textValue();
-
-		
-		UserCredential userCredential = new UserCredential(mAuthUserInfo.getUserCredential().getUserName(), mAuthUserInfo.getUserCredential().getPassword(), email, userId);
+			 
+	    UserCredential userCredential = new UserCredential(mAuthUserInfo.getUserCredential().getUserName(), mAuthUserInfo.getUserCredential().getPassword(), email, userId);
 		AuthenticatedUserInfo completeAuthInfo = new AuthenticatedUserInfo(userCredential);
 		UserData userData = new UserData(completeAuthInfo, securityToken);
 		

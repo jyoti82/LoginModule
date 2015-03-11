@@ -190,21 +190,26 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class id {
         public static final int Register=0x7f06000b;
-        public static final int action_settings=0x7f06001e;
+        public static final int action_settings=0x7f060022;
         public static final int addTOCartButton=0x7f060017;
         public static final int catLogList=0x7f060006;
+        public static final int divider_footer_view=0x7f06001c;
+        public static final int divider_header_view=0x7f060019;
         public static final int editText1=0x7f060008;
         public static final int editText2=0x7f060009;
         public static final int fullscreen=0x7f060003;
-        public static final int icon=0x7f06001b;
-        public static final int iconTitleContainer=0x7f06001a;
+        public static final int icon=0x7f06001f;
+        public static final int iconTitleContainer=0x7f06001e;
+        public static final int imageView1=0x7f06001a;
         public static final int itemImage=0x7f060013;
         public static final int itemName=0x7f060014;
         public static final int itemQuantity=0x7f060015;
         public static final int left=0x7f060001;
         public static final int login=0x7f06000a;
         public static final int margin=0x7f060004;
+        public static final int menu_frame=0x7f060018;
         public static final int none=0x7f060005;
+        public static final int powered_by_rovi=0x7f06001b;
         public static final int progressBar1=0x7f060007;
         public static final int quantityLabel=0x7f060016;
         public static final int register_address=0x7f060011;
@@ -215,11 +220,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int register_retype_password=0x7f060010;
         public static final int register_username=0x7f06000c;
         public static final int right=0x7f060002;
-        public static final int rightTextViewForDVR=0x7f06001d;
-        public static final int search_icon=0x7f060019;
+        public static final int rightTextViewForDVR=0x7f060021;
+        public static final int search_icon=0x7f06001d;
         public static final int selected_view=0x7f060000;
-        public static final int slidingmenumain=0x7f060018;
-        public static final int topbar_title=0x7f06001c;
+        public static final int topbar_title=0x7f060020;
     }
     public static final class integer {
         public static final int add_onetime_recording=0x7f07001b;
@@ -269,19 +273,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int update_service_provider=0x7f07000f;
     }
     public static final class layout {
-        public static final int activity_cat_log=0x7f030000;
-        public static final int activity_login_avtivity=0x7f030001;
-        public static final int activity_next=0x7f030002;
-        public static final int activity_user_register=0x7f030003;
-        public static final int item_row=0x7f030004;
-        public static final int slidingmenumain=0x7f030005;
-        public static final int top_action_bar_layout=0x7f030006;
+        public static final int activity_base=0x7f030000;
+        public static final int activity_cat_log=0x7f030001;
+        public static final int activity_login_avtivity=0x7f030002;
+        public static final int activity_next=0x7f030003;
+        public static final int activity_user_register=0x7f030004;
+        public static final int item_row=0x7f030005;
+        public static final int menu_frame=0x7f030006;
+        public static final int sliding_menu_list=0x7f030007;
+        public static final int slidingmenumain=0x7f030008;
+        public static final int top_action_bar=0x7f030009;
     }
     public static final class menu {
-        public static final int cat_log=0x7f0a0000;
-        public static final int login_avtivity=0x7f0a0001;
-        public static final int next=0x7f0a0002;
-        public static final int user_register=0x7f0a0003;
+        public static final int base=0x7f0a0000;
+        public static final int cat_log=0x7f0a0001;
+        public static final int login_avtivity=0x7f0a0002;
+        public static final int next=0x7f0a0003;
+        public static final int user_register=0x7f0a0004;
     }
     public static final class string {
         public static final int App=0x7f08000c;
@@ -317,6 +325,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int password_empty=0x7f080019;
         public static final int retype_password=0x7f080005;
         public static final int server_error=0x7f080024;
+        public static final int title_activity_base=0x7f080026;
         public static final int title_activity_cat_log=0x7f080025;
         public static final int title_activity_next=0x7f080013;
         public static final int title_activity_user_register=0x7f080016;

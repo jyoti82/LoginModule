@@ -95,6 +95,8 @@ public class HttpUtils {
 			for(String key : headers.keySet()) {
 				String value = headers.get(key);
 				httppost.setHeader(key, value);
+				LogService.d("paramString", key +" " + value);
+				
 			}
 		}
 		HttpResponse response = httpclient.execute(httppost);

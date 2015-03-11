@@ -3,21 +3,27 @@ package com.jyoti.loginmodule;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.jyoti.loginmodule.adapters.CatLogListAdapter;
-import com.jyoti.loginmodule.models.Item;
-import com.jyoti.loginmodule.services.LogService;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity;
+import com.jyoti.loginmodule.adapters.CatLogListAdapter;
+import com.jyoti.loginmodule.models.Item;
+import com.jyoti.loginmodule.services.LogService;
+
 public class CatLogActivity extends Activity {
-		@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	
+		public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_cat_log);
+		
 		LogService.d("CatLogActivity", "catlog activity created");
 		ListView catLogList = (ListView) findViewById(R.id.catLogList);
 		List<Item> itemList = new ArrayList<Item>(); 
@@ -30,6 +36,20 @@ public class CatLogActivity extends Activity {
 		catLogList.setAdapter(adapter);
 		LogService.d("CatLogActivity", " list adapter set");
 		//catLogList.setOnItemClickListener();
+		catLogList.setOnItemClickListener(new OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+				String detailUrl = null;
+				String title = null;
+				String movieId = null;
+				try {
+					// additem to cart
+				} catch(Exception e) {
+
+				}
+				
+			}
+		});		
 	}
 
 	@Override

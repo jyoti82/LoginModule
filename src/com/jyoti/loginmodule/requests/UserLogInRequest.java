@@ -19,7 +19,9 @@ public class UserLogInRequest extends BaseRequest {
 		super(rhandler, POST, 1);
 		setParamsType(JSON_ENCODED);
 		setCacheable(false);
-		String urlStr = RequestService.getHost(false) + "/login";
+		//String urlStr = RequestService.getHost(false) + "/login";
+		
+		String urlStr = "http://10.0.2.2:8084/RestDemo/login/dologin";
 		LogService.d("urlStr", urlStr);
 		setUrlStr(urlStr);
 		JsonNodeFactory nodeFactory = JsonNodeFactory.instance;
@@ -32,7 +34,7 @@ public class UserLogInRequest extends BaseRequest {
 			if (password != null) node.put("Password", password);
 			node.put("ClientUID", MainApplication.getUniqueAndroidDeviceId());
 			//node.put("MsoName", authUserInfo.getMsoInfo().getMsoNameForServer());
-			node.put("AppName", Constants.LogOnAppName);
+			//node.put("AppName", Constants.LogOnAppName);
 			setParameters(node);
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block

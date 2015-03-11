@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15.0dp"
+    android:layout_marginRight="15.0dp"
+    android:background="@color/black" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider_header_view"
+        android:choiceMode="singleChoice"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:overScrollMode="never" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="44.0dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="dvr"
+        android:maxHeight="36.0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/powered_by_rovi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20.0dp"
+        android:contentDescription="close"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/divider_header_view"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:layout_below="@+id/imageView1"
+        android:contentDescription="close" />
+
+    <ImageView
+        android:id="@+id/divider_footer_view"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:layout_below="@android:id/list"
+        android:contentDescription="close2" />
+
+</RelativeLayout>

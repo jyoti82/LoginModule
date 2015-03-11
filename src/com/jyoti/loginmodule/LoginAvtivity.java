@@ -79,7 +79,7 @@ public void setItem(Object item, Object userData) {
 	if(item instanceof UserData) {
 		Intent intent=new Intent(this, CatLogActivity.class);
 		 startActivity(intent);
-		 //finish();
+		 finish();
 	}
 	// TODO Auto-generated method stub
 	

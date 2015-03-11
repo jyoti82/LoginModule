@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MeatCart</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="email">Email Id</string>
+    <string name="Register">Create Account</string>
+    <string name="address">Address</string>
+    <string name="LoginPost">Sign in</string>
+    <string name="create_account">Create Account</string>
+    <string name="App">Login </string>
+    <string name="LoginStatus">Login Status</string>
+    <string name="LoginRole">Login Role</string>
+    <string name="Status">Not login</string>
+    <string name="Role">Not assigned</string>
+    <string name="method">Login Method</string>
+    <string name="Choose">Choose Method</string>
+    <string name="title_activity_next">Next</string>
+    <string name="internet_disconnected">IneterNet Disconnected</string>
+    <string name="internet_not_available">Internet not available, Cross check your internet connectivity and try again</string>
+    <string name="title_activity_user_register">Register</string>
+    <string name="invalid_username">Your username must be 4 to 25 characters and can only include letters, digits and the characters @, period and hyphen</string>
+    <string name="username_empty">Your username must be 4 to 25 characters and can only include letters, digits and the characters @, period and hyphen</string>
+    <string name="password_empty">Password must have 5 to 50 characters and no spaces.</string>
+    <string name="emailid_empty">Email Address is missing. Please enter an email address</string>
+    <string name="confirm_pwd_empty">Confirm Password field is empty.</string>
+    <string name="old_pwd_empty">Old Password field is empty.</string>
+    <string name="new_pwd_empty">New Password field is empty.</string>
+    <string name="invalid_password">Password must have 5 to 50 characters and no spaces.</string>
+    <string name="invalid_emailid">Invalid format for email address. Please enter a valid email address</string>
+    <string name="invalid_mobile">Invalid format for email address. Please enter a valid email address</string>
+    <string name="address_empty">Please enter valid primary shipping address</string>
+    <string name="invalid_values">One or more fields did not have valid values.</string>
+    <string name="password_doesnt_match">Passwords do not match. Please retype the passwords</string>
+    <string name="server_error">server_error</string>
+    <string name="title_activity_cat_log">CatLogActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+</resources>
