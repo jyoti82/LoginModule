@@ -23,28 +23,28 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/itemQuantity"
+        android:id="@+id/itemPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/itemName"
         android:layout_below="@+id/itemName"
         android:layout_marginTop="8dp"
-        android:text="item quantity"
+        android:text="item price"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 	<TextView
-        android:id="@+id/quantityLabel"
+        android:id="@+id/itemDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/itemName"
-        android:layout_below="@+id/itemQuantity"
+        android:layout_below="@+id/itemPrice"
         android:layout_marginTop="6dp"
-        android:text="TextView" />
+        android:text="itemDesc" />
 
 	<ImageButton
 	    android:id="@+id/addTOCartButton"
 	    android:layout_width="150dp"
 	    android:layout_height="40dp"
-	    android:layout_below="@+id/quantityLabel"
+	    android:layout_below="@+id/itemDesc"
 	    android:layout_toRightOf="@+id/itemImage"
 	    android:layout_marginTop="23dp"
 	    android:src="@drawable/ic_launcher" />

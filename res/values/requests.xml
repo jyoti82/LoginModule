@@ -13,7 +13,7 @@
     <integer name="channellineup">9</integer>
     <integer name="request_fav">10</integer>
     <integer name="getutcinfo">11</integer>
-    <integer name="for_you_list">12</integer>
+    <integer name="catlog_list">12</integer>
     <integer name="for_you_details">13</integer>
     <integer name="request_devices">14</integer>
     <!--integer name="request_fav_airings">14</integer-->

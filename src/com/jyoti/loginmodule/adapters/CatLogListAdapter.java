@@ -16,9 +16,10 @@ import android.widget.TextView;
 import com.jyoti.loginmodule.CatLogActivity;
 import com.jyoti.loginmodule.R;
 import com.jyoti.loginmodule.models.Item;
+import com.jyoti.loginmodule.response.BaseResponse;
 import com.jyoti.loginmodule.services.LogService;
 
-public class CatLogListAdapter extends BaseAdapter {
+public class CatLogListAdapter extends BaseAdapter  {
 	private WeakReference<CatLogActivity> mContext;
 	List<Item> itemList = new ArrayList<Item>(); 
 	public CatLogListAdapter(Context context, List<Item> itemList) {
@@ -38,10 +39,11 @@ public class CatLogListAdapter extends BaseAdapter {
 		return itemList.get(position);
 	}
 	private static class ItemHolder {
+			public long itemId;
+			public int itemQuantityAvail;
 		    public TextView itemName;
-		    public TextView itemQauntity;
-		    public TextView itemQuantity;
-		    public TextView quantityLable;
+		    public TextView itemPrice;
+		    public TextView itemDescription;
 		    public ImageView itemImage;
 		    public ImageButton addTOCartButton;
 		    
@@ -67,15 +69,14 @@ public class CatLogListAdapter extends BaseAdapter {
         	itemView = inflater.inflate(R.layout.item_row, null);
         
 	        TextView itemName =  (TextView) itemView.findViewById(R.id.itemName);
-	        TextView itemQauntity = (TextView) itemView.findViewById(R.id.itemQuantity);
-	        TextView quantity = (TextView) itemView.findViewById(R.id.quantityLabel);
+	        TextView itemPrice = (TextView) itemView.findViewById(R.id.itemPrice);
+	        TextView itemDesc = (TextView) itemView.findViewById(R.id.itemDesc);
 	        ImageView itemImage = (ImageView) itemView.findViewById(R.id.itemImage);
 	        ImageButton addTOCartButton = (ImageButton) itemView.findViewById(R.id.addTOCartButton);
 	        // 3.
 	        holder.itemName = itemName;
-	        holder.itemQauntity = itemQauntity;
-	        holder.itemQuantity = itemQauntity;
-	        holder.quantityLable = quantity;
+	        holder.itemPrice = itemPrice;
+	        holder.itemDescription = itemDesc;
 	        holder.itemImage = itemImage;
 	        holder.addTOCartButton = addTOCartButton;
 	        
@@ -86,13 +87,33 @@ public class CatLogListAdapter extends BaseAdapter {
         LogService.d("getView1", String.valueOf(position));
         
         Item listItem = (Item) getItem(position);
+        holder.itemId =  listItem.getId();
+        holder.itemQuantityAvail = listItem.getQuantityAvailable();
         holder.itemName.setText( listItem.getName());
-        holder.itemQauntity.setText(String.valueOf(listItem.getQuantity()));
-        holder.quantityLable.setText("quantity "  );
+        holder.itemDescription.setText(listItem.getDescription());
+        holder.itemPrice.setText(String.valueOf(listItem.getPrice()));
         holder.itemImage.setImageResource(R.drawable.ic_launcher);
         holder.addTOCartButton.setImageResource(R.drawable.ic_launcher);
 
         return itemView;
 	}
+	
+	// This will be called on UI Thread
+		public void onError(BaseResponse result) {
+			CatLogActivity act = mContext.get();
+			if ((act != null)&&(!act.isFinishing())) {
+				act.removeLoader();
+				act.onDetailsError( result.getMessage());			
+			}
+		}
+
+		
+		public void refreshContent() {
+			CatLogActivity act = mContext.get();
+			if ((act != null)&&(!act.isFinishing())) {
+				notifyDataSetChanged();
+				act.removeLoader();
+			}
+		}
 
 }

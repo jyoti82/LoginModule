@@ -16,5 +16,11 @@
         android:layout_alignParentTop="true"
       >
     </ListView>
+    <include
+        android:id="@+id/catlog_loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/loader" 
+        android:layout_marginTop="49dp" />
 
 </RelativeLayout>

@@ -40,5 +40,7 @@
     <string name="server_error">server_error</string>
     <string name="title_activity_cat_log">CatLogActivity</string>
     <string name="title_activity_base">BaseActivity</string>
+    
+     <string name="NO_DATA_AVAILABLE_MESSAGE">No Data Available</string>
 
 </resources>

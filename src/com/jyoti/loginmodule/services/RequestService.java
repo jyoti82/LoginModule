@@ -16,10 +16,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jyoti.loginmodule.Constants;
 import com.jyoti.loginmodule.GatewayStatusCode;
 import com.jyoti.loginmodule.HttpUtils;
+import com.jyoti.loginmodule.handlers.CatlogResponseHandler;
 import com.jyoti.loginmodule.handlers.ResponseHandler;
 import com.jyoti.loginmodule.handlers.UserLogInHandler;
 import com.jyoti.loginmodule.models.AuthenticatedUserInfo;
 import com.jyoti.loginmodule.requests.BaseRequest;
+import com.jyoti.loginmodule.requests.CatlogItemRequest;
 import com.jyoti.loginmodule.requests.UniqueIDRequest;
 import com.jyoti.loginmodule.requests.UserLogInRequest;
 import com.jyoti.loginmodule.response.BaseResponse;
@@ -48,6 +50,13 @@ public class RequestService {
 		BaseRequest request = new UniqueIDRequest(handler, idType, idValue);
 		request.setUserData(userData);
 		return getData(request);
+	}
+	
+	public static int getCatlogItems(ResponseHandler cHandler) {
+		// TODO Auto-generated method stub
+		BaseRequest request = new CatlogItemRequest(cHandler);
+		return getData(request);
+		
 	}
 	private static int getData(BaseRequest requestObject) {
 		// TODO Auto-generated method stub
@@ -253,4 +262,5 @@ public class RequestService {
 			return number;
 		}
 	}
+	
 }
